@@ -24,6 +24,8 @@ public class MainBangunRuang {
         balok.p = scanner.nextFloat();
         System.out.println("Masukkan lebar balok : ");
         balok.l = scanner.nextFloat();
+        System.out.println("Maukkan tinggi balok : ");
+        balok.t = scenner.nextFloat();
        
        LimasSegitiga limasSegitiga = new LimasSegitiga();
         System.out.println("Masukkan alas segitga : ");
