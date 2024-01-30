@@ -15,7 +15,7 @@ public class LimasSegitiga extends BangunRuang{
     return volume;
 }
     double luasPermukaan(double lp){
-       double luasPermukaan = 1/6 * (1/2 * alas * tS) * tL;
+       double luasPermukaan = 1/3 * (1/2 * alas * tS) * tL;
         System.out.println("luas Limas segitiga : " + lp);
         return luasPermukaan;
     }
